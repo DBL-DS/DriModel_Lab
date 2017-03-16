@@ -1,0 +1,21 @@
+$VISION
+* File:		D:\Vissim\MyTest\test.inpx
+* Comment:	
+* Date:		2017/3/16 9:12:43
+* PTV Vissim:	7.00 [09]
+* 
+* Table: Delay Results
+* 
+* SIMRUN: SimRun, Simulation run
+* TIMEINT: TimeInt, Time interval
+* DELAYMEASUREMENT: DelayMeasurement, Delay measurement
+* STOPDELAY(ALL): StopDelay(All), Stopped delay (average) (All) [s]
+* STOPS(ALL): Stops(All), Stops (All)
+* VEHDELAY(ALL): VehDelay(All), Vehicle delay (average) (All) [s]
+* VEHS(ALL): Vehs(All), Vehicles (All)
+* PERSDELAY(ALL): PersDelay(All), Person delay (average) (All) [s]
+* PERS(ALL): Pers(All), Persons (All)
+* SimRun; TimeInt; DelayMeasurement; StopDelay(All); Stops(All); VehDelay(All); Vehs(All); PersDelay(All); Pers(All)
+*
+$DELAYMEASUREMENTEVALUATION:SIMRUN;TIMEINT;DELAYMEASUREMENT;STOPDELAY(ALL);STOPS(ALL);VEHDELAY(ALL);VEHS(ALL);PERSDELAY(ALL);PERS(ALL)
+

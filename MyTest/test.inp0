@@ -529,6 +529,7 @@
 		<linkBehaviorType anmFlag="false" drivBehavDef="3" name="郊外道路（自由选择车道）" no="3"/>
 		<linkBehaviorType anmFlag="false" drivBehavDef="4" name="人行道 (无相互作用)" no="4"/>
 		<linkBehaviorType anmFlag="false" drivBehavDef="5" name="自行车道 (任意超车)" no="5"/>
+		<linkBehaviorType anmFlag="false" drivBehavDef="5" name="自定义" no="6"/>
 	</linkBehaviorTypes>
 	<maxAccelerationFunctions>
 		<maxAccelerationFunction name="小汽车" no="1">
@@ -2343,7 +2344,7 @@
 	<evaluation autoCreateResultColumns="true" databaseConnection="" evalOutDir="#data#" keepPrevResults="KEEPALL" listAutoExportType="FILE" nodesDelaySegmentStart="100.000000" queueBeginSpeed="5.000000" queueConsiderAdjacentLanes="true" queueEndSpeed="10.000000" queueMaxHeadway="20.000000" queueMaxLength="500.000000">
 		<vehTravTms aggrBySect="DESTINATION" collectData="true" fromTime="0" interval="99999" toTime="99999"/>
 		<nodeRawData fromTime="0" toTime="99999" writeDatabase="false" writeFile="false"/>
-		<vehTravTmRawData fromTime="0" toTime="99999" writeDatabase="false" writeFile="true"/>
+		<vehTravTmRawData fromTime="0" toTime="99999" writeDatabase="false" writeFile="false"/>
 		<dataCollRawData fromTime="0" toTime="99999" writeFile="false"/>
 		<lnChgs filterType="ALL" fromTime="0" toTime="99999" writeFile="false"/>
 		<vehInpData writeFile="false"/>
@@ -2367,7 +2368,7 @@
 				<attributeSelection attributeID="CONSTRELNO" decimals="0" format="DEFAULT" showUnits="false"/>
 			</attributes>
 		</pedRec>
-		<vehRec filterType="ALL" fromTime="0" inclParkVehs="false" resolution="1" toTime="99999" writeDatabase="false" writeFile="true">
+		<vehRec filterType="ALL" fromTime="0" inclParkVehs="false" resolution="1" toTime="99999" writeDatabase="false" writeFile="false">
 			<attributes>
 				<attributeSelection attributeID="SIMSEC" decimals="2" format="DEFAULT" showUnits="false"/>
 				<attributeSelection attributeID="NO" decimals="0" format="DEFAULT" showUnits="false"/>
@@ -2382,7 +2383,7 @@
 		<areaMeasResults collectData="false" fromTime="0" interval="99999" toTime="99999"/>
 		<pedTravTmRawData fromTime="0" toTime="99999" writeFile="false"/>
 		<pedTravTmODData fromTime="0" interval="99999" toTime="99999" writeFile="false"/>
-		<areaMeasRawData fromTime="0" toTime="99999" writeFile="true"/>
+		<areaMeasRawData fromTime="0" toTime="99999" writeFile="false"/>
 		<dischRec fromTime="0" toTime="99999" writeFile="false"/>
 		<pedNetPerf collectData="false" fromTime="0" interval="99999" toTime="99999"/>
 	</evaluation>
